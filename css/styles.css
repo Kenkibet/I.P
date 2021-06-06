@@ -37,7 +37,7 @@ h1{
 }
 
 body {
-  background-image: url ("./image/image2.jpg");
+  background: url("../image/image2.jpg");
   text-align: center;
 }
 
@@ -49,4 +49,16 @@ body {
 .flex-item{
   width: 50%;
   margin: 10px;
+}
+
+.flex-item *{
+  text-align: left;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-justified{
+  text-align: justify;
 }
