@@ -12,3 +12,14 @@ img {
   margin: 0px;
   padding: 0px;
 }
+h1{
+  color: inherit;
+  font-style: red;
+}
+.intro {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  float: inherit;
+}
